@@ -23,15 +23,15 @@
 		F3269D8E150390E000C7D2DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3269D90150390E000C7D2DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3269D92150390E000C7D2DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F3269D96150390E000C7D2DA /* Ruby China-Info.plist */ = {isa = PBXFileReference; path = "Ruby China-Info.plist"; sourceTree = "<group>"; };
+		F3269D96150390E000C7D2DA /* Ruby China-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ruby China-Info.plist"; sourceTree = "<group>"; };
 		F3269D98150390E000C7D2DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3269D9A150390E000C7D2DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F3269D9C150390E000C7D2DA /* Ruby China-Prefix.pch */ = {isa = PBXFileReference; path = "Ruby China-Prefix.pch"; sourceTree = "<group>"; };
-		F3269D9D150390E000C7D2DA /* RCIAppDelegate.h */ = {isa = PBXFileReference; path = RCIAppDelegate.h; sourceTree = "<group>"; };
+		F3269D9C150390E000C7D2DA /* Ruby China-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ruby China-Prefix.pch"; sourceTree = "<group>"; };
+		F3269D9D150390E000C7D2DA /* RCIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIAppDelegate.h; sourceTree = "<group>"; };
 		F3269D9E150390E100C7D2DA /* RCIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIAppDelegate.m; sourceTree = "<group>"; };
 		F3269DA1150390E100C7D2DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F3269DA4150390E100C7D2DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F3269DA6150390E100C7D2DA /* RCIViewController.h */ = {isa = PBXFileReference; path = RCIViewController.h; sourceTree = "<group>"; };
+		F3269DA6150390E100C7D2DA /* RCIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIViewController.h; sourceTree = "<group>"; };
 		F3269DA7150390E100C7D2DA /* RCIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

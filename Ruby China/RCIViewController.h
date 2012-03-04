@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RCIViewController : UIViewController
+@interface RCIViewController : UITableViewController
 
 @end
