@@ -7,6 +7,7 @@
 //
 
 #import "RCIAppDelegate.h"
+#import <RestKit/RestKit.h>
 
 @implementation RCIAppDelegate
 

@@ -16,7 +16,53 @@
 		F3269DA2150390E100C7D2DA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3269DA0150390E100C7D2DA /* MainStoryboard_iPhone.storyboard */; };
 		F3269DA5150390E100C7D2DA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3269DA3150390E100C7D2DA /* MainStoryboard_iPad.storyboard */; };
 		F3269DA8150390E100C7D2DA /* RCIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3269DA7150390E100C7D2DA /* RCIViewController.m */; };
+		F3D546021503A59700F5A9E3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D546001503A59700F5A9E3 /* CFNetwork.framework */; };
+		F3D546031503A59700F5A9E3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D546011503A59700F5A9E3 /* CoreData.framework */; };
+		F3D546051503A5A600F5A9E3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D546041503A5A600F5A9E3 /* MobileCoreServices.framework */; };
+		F3D546081503A5B000F5A9E3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D546061503A5B000F5A9E3 /* Security.framework */; };
+		F3D546091503A5B000F5A9E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D546071503A5B000F5A9E3 /* SystemConfiguration.framework */; };
+		F3D5460B1503A5BC00F5A9E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D5460A1503A5BC00F5A9E3 /* QuartzCore.framework */; };
+		F3D5460D1503A5CE00F5A9E3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D5460C1503A5CE00F5A9E3 /* libxml2.dylib */; };
+		F3D5462B1503A76700F5A9E3 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D546241503A62F00F5A9E3 /* libRestKit.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3D546231503A62F00F5A9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D545EA1503A44D00F5A9E3 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		F3D546251503A62F00F5A9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D545EA1503A44D00F5A9E3 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		F3D546271503A62F00F5A9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D545EA1503A44D00F5A9E3 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		F3D546291503A62F00F5A9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D545EA1503A44D00F5A9E3 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		F3D5462C1503A78800F5A9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D545EA1503A44D00F5A9E3 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F3269D8A150390E000C7D2DA /* Ruby China.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ruby China.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +79,14 @@
 		F3269DA4150390E100C7D2DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		F3269DA6150390E100C7D2DA /* RCIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIViewController.h; sourceTree = "<group>"; };
 		F3269DA7150390E100C7D2DA /* RCIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIViewController.m; sourceTree = "<group>"; };
+		F3D545EA1503A44D00F5A9E3 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = ../RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		F3D546001503A59700F5A9E3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F3D546011503A59700F5A9E3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F3D546041503A5A600F5A9E3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F3D546061503A5B000F5A9E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F3D546071503A5B000F5A9E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F3D5460A1503A5BC00F5A9E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3D5460C1503A5CE00F5A9E3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +94,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D5462B1503A76700F5A9E3 /* libRestKit.a in Frameworks */,
+				F3D5460D1503A5CE00F5A9E3 /* libxml2.dylib in Frameworks */,
+				F3D5460B1503A5BC00F5A9E3 /* QuartzCore.framework in Frameworks */,
+				F3D546081503A5B000F5A9E3 /* Security.framework in Frameworks */,
+				F3D546091503A5B000F5A9E3 /* SystemConfiguration.framework in Frameworks */,
+				F3D546051503A5A600F5A9E3 /* MobileCoreServices.framework in Frameworks */,
+				F3D546021503A59700F5A9E3 /* CFNetwork.framework in Frameworks */,
+				F3D546031503A59700F5A9E3 /* CoreData.framework in Frameworks */,
 				F3269D8F150390E000C7D2DA /* UIKit.framework in Frameworks */,
 				F3269D91150390E000C7D2DA /* Foundation.framework in Frameworks */,
 				F3269D93150390E000C7D2DA /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +131,13 @@
 		F3269D8D150390E000C7D2DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3D5460C1503A5CE00F5A9E3 /* libxml2.dylib */,
+				F3D5460A1503A5BC00F5A9E3 /* QuartzCore.framework */,
+				F3D546061503A5B000F5A9E3 /* Security.framework */,
+				F3D546071503A5B000F5A9E3 /* SystemConfiguration.framework */,
+				F3D546041503A5A600F5A9E3 /* MobileCoreServices.framework */,
+				F3D546001503A59700F5A9E3 /* CFNetwork.framework */,
+				F3D546011503A59700F5A9E3 /* CoreData.framework */,
 				F3269D8E150390E000C7D2DA /* UIKit.framework */,
 				F3269D90150390E000C7D2DA /* Foundation.framework */,
 				F3269D92150390E000C7D2DA /* CoreGraphics.framework */,
@@ -79,6 +148,7 @@
 		F3269D94150390E000C7D2DA /* Ruby China */ = {
 			isa = PBXGroup;
 			children = (
+				F3D545EA1503A44D00F5A9E3 /* RestKit.xcodeproj */,
 				F3269D9D150390E000C7D2DA /* RCIAppDelegate.h */,
 				F3269D9E150390E100C7D2DA /* RCIAppDelegate.m */,
 				F3269DA0150390E100C7D2DA /* MainStoryboard_iPhone.storyboard */,
@@ -101,6 +171,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F3D5461D1503A62F00F5A9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D546241503A62F00F5A9E3 /* libRestKit.a */,
+				F3D546261503A62F00F5A9E3 /* RestKitTests.octest */,
+				F3D546281503A62F00F5A9E3 /* RestKit.framework */,
+				F3D5462A1503A62F00F5A9E3 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +196,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F3D5462D1503A78800F5A9E3 /* PBXTargetDependency */,
 			);
 			name = "Ruby China";
 			productName = "Ruby China";
@@ -141,12 +223,49 @@
 			mainGroup = F3269D7F150390E000C7D2DA;
 			productRefGroup = F3269D8B150390E000C7D2DA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F3D5461D1503A62F00F5A9E3 /* Products */;
+					ProjectRef = F3D545EA1503A44D00F5A9E3 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F3269D89150390E000C7D2DA /* Ruby China */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F3D546241503A62F00F5A9E3 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = F3D546231503A62F00F5A9E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3D546261503A62F00F5A9E3 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = F3D546251503A62F00F5A9E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3D546281503A62F00F5A9E3 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = F3D546271503A62F00F5A9E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3D5462A1503A62F00F5A9E3 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = F3D546291503A62F00F5A9E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F3269D88150390E000C7D2DA /* Resources */ = {
@@ -173,6 +292,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3D5462D1503A78800F5A9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = F3D5462C1503A78800F5A9E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F3269D97150390E000C7D2DA /* InfoPlist.strings */ = {
@@ -254,7 +381,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ruby China/Ruby China-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
 				INFOPLIST_FILE = "Ruby China/Ruby China-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,7 +397,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ruby China/Ruby China-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
 				INFOPLIST_FILE = "Ruby China/Ruby China-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -290,6 +427,7 @@
 				F3269DAD150390E100C7D2DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
