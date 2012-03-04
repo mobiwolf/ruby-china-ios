@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RestKit/RestKit.h>
 
-@interface RCIViewController : UITableViewController
+@interface RCIViewController : UITableViewController <RKObjectLoaderDelegate>
 
 @end

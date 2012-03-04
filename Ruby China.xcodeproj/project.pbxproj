@@ -24,6 +24,8 @@
 		F3D5460B1503A5BC00F5A9E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D5460A1503A5BC00F5A9E3 /* QuartzCore.framework */; };
 		F3D5460D1503A5CE00F5A9E3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D5460C1503A5CE00F5A9E3 /* libxml2.dylib */; };
 		F3D5462B1503A76700F5A9E3 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D546241503A62F00F5A9E3 /* libRestKit.a */; };
+		F3D546411503B7BA00F5A9E3 /* RCITopic.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D546401503B7BA00F5A9E3 /* RCITopic.m */; };
+		F3D546511503B89F00F5A9E3 /* RCIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D546501503B89E00F5A9E3 /* RCIUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,10 @@
 		F3D546071503A5B000F5A9E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F3D5460A1503A5BC00F5A9E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F3D5460C1503A5CE00F5A9E3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F3D5463F1503B7BA00F5A9E3 /* RCITopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCITopic.h; sourceTree = "<group>"; };
+		F3D546401503B7BA00F5A9E3 /* RCITopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCITopic.m; sourceTree = "<group>"; };
+		F3D5464F1503B89E00F5A9E3 /* RCIUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCIUser.h; sourceTree = "<group>"; };
+		F3D546501503B89E00F5A9E3 /* RCIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCIUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,10 @@
 				F3269DA3150390E100C7D2DA /* MainStoryboard_iPad.storyboard */,
 				F3269DA6150390E100C7D2DA /* RCIViewController.h */,
 				F3269DA7150390E100C7D2DA /* RCIViewController.m */,
+				F3D5463F1503B7BA00F5A9E3 /* RCITopic.h */,
+				F3D546401503B7BA00F5A9E3 /* RCITopic.m */,
+				F3D5464F1503B89E00F5A9E3 /* RCIUser.h */,
+				F3D546501503B89E00F5A9E3 /* RCIUser.m */,
 				F3269D95150390E000C7D2DA /* Supporting Files */,
 			);
 			path = "Ruby China";
@@ -288,6 +298,8 @@
 				F3269D9B150390E000C7D2DA /* main.m in Sources */,
 				F3269D9F150390E100C7D2DA /* RCIAppDelegate.m in Sources */,
 				F3269DA8150390E100C7D2DA /* RCIViewController.m in Sources */,
+				F3D546411503B7BA00F5A9E3 /* RCITopic.m in Sources */,
+				F3D546511503B89F00F5A9E3 /* RCIUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
